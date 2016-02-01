@@ -3,9 +3,11 @@ Getting and Cleaning Data Project - codebook.md
 Ivy Koko S. MacLean
 
 Description 
+
 Additional information about the variables, data and transformations used in the course project for the Johns Hopkins Getting and Cleaning Data course. 
 
 Source Data 
+
 A full description of the data used in this project can be found at The UCI Machine Learning Repository 
 The source data for this project can be in https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. 
 
@@ -29,21 +31,21 @@ A 561-feature vector with time and frequency domain variables. . Its activity la
 Section 1. 
 
 Merge the training and the test sets to create one data set. After setting the source directory for the files, read into tables the data located in 
-     . features.txt 
+     - features.txt 
      
-     . activity_labels.txt 
+     - activity_labels.txt 
      
-     . subject_train.txt 
+     - subject_train.txt 
      
-     . x_train.txt 
+     - x_train.txt 
      
-     . y_train.txt 
+     - y_train.txt 
      
-     . subject_test.txt 
+     - subject_test.txt 
      
-     . x_test.txt 
+     - x_test.txt 
      
-     . y_test.txt 
+     - y_test.txt 
      
      
 Assign column names and merge to create one data set. 
